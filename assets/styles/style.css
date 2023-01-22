@@ -2,7 +2,55 @@
 @import url('./normalize.css');
 @import url('./scafolding.css');
 
-.mix {
-    background: #E5E5E5;;
-    display: block;
+.nav {
+    background: #FFFFFF;
+    padding-top: 33px;
+    padding-bottom: 46px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+.handset {
+    margin-right: 11px;
+}
+
+.tel-link {
+    text-decoration: none;
+    color: black;
+}
+
+div.header-section a span {
+    margin-right: 62px;
+}
+
+.basket {
+    margin-right: 28px;
+}
+
+div.header-section :nth-child(2){
+    margin-right: 40px;
+}
+
+div.header-section :nth-child(3){
+    margin-right: 40px;
+}
+
+.catalog::after {
+    content:url('./images/vector.png');
+    margin-left: 7px;
+    margin-right: 43px;
+    width: 9px;
+    height: 5px;
+    color: #4F4F4F;
+
+}
+
+
+
