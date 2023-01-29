@@ -152,6 +152,7 @@
 }
 
 .card-box {
+    font-size: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 46px 20px;
@@ -162,7 +163,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 315px;
     border-radius: 20px;
     background: #F9F9F9;
     padding: 20px 20px 30px;
@@ -185,7 +185,6 @@
 }
 
 .bird-food {
-    display: block;
     margin-bottom: 25px;
     font-weight: 400;
     font-size: 16px;
@@ -194,7 +193,6 @@
 }
 
 .food-price {
-    display: block;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
@@ -299,10 +297,6 @@ div.link-numbers a.active:active {
 
 .footer-margin {
     margin-right: 47px;
-}
-
-.container {
-    margin-bottom: 25px;
 }
 
 .spann {
