@@ -145,7 +145,7 @@
 }
 
 .go-back::before {
-    margin-right: 10.75px;
+    margin-right: 10px;
     content:'>';
     color: #3FCF5E;
     margin-bottom: 30px;
@@ -240,8 +240,8 @@
 
 .link-numbers::before {
     content:url('./images/arrow-left.png');
-    Width:10.67px;
-    Height:6px;
+    width:10.67px;
+    height:6px;
     color: #333333;
     margin-right: 30px;
 }
