@@ -145,8 +145,13 @@
 }
 
 .go-back::before {
+<<<<<<< HEAD
     margin-right: 10.75px;
     content:url('./images/vector-back.png');
+=======
+    margin-right: 10px;
+    content:'<';
+>>>>>>> f0d0f13f762d08272dbfc01351d933111e529ebe
     color: #3FCF5E;
     margin-bottom: 30px;
 }
@@ -240,8 +245,8 @@
 
 .link-numbers::before {
     content:url('./images/arrow-left.png');
-    Width:10.67px;
-    Height:6px;
+    width:10.67px;
+    height:6px;
     color: #333333;
     margin-right: 30px;
 }
