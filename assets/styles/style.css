@@ -145,13 +145,8 @@
 }
 
 .go-back::before {
-<<<<<<< HEAD
-    margin-right: 10.75px;
-    content:url('./images/vector-back.png');
-=======
     margin-right: 10px;
-    content:'<';
->>>>>>> f0d0f13f762d08272dbfc01351d933111e529ebe
+    content:url('./images/vector-back.png');
     color: #3FCF5E;
     margin-bottom: 30px;
 }
