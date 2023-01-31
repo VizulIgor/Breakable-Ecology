@@ -146,7 +146,7 @@
 
 .go-back::before {
     margin-right: 10.75px;
-    content:'>';
+    content:url('./images/vector-back.png');
     color: #3FCF5E;
     margin-bottom: 30px;
 }
