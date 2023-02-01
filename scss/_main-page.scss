@@ -1,5 +1,5 @@
 .nav {
-    background: $contentBackgroundColor;
+    background: #FFFFFF;
     padding-top: 33px;
     padding-bottom: 46px;
 }
@@ -96,23 +96,208 @@
     background: #E5E5E5;
 }
 
+.span-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.span-item:nth-child(1)::after {
+    margin-left: 15px;
+    margin-right: 14px;
+    content:url('./images/dot.png');
+    width: 6px;
+    height: 6px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
 .go-back {
+    display: block;
     font-size: 20px;
     line-height: 24px;
     color: #333333;
     margin-top: 30px;
+    margin-bottom: 44px;
     text-decoration: none;
 }
 
 .go-back::before {
-    margin-right: 11px;
-    width: 10px;
-    height: 9px;
+    margin-right: 10px;
     content:url('./images/vector-back.png');
     color: #3FCF5E;
     margin-bottom: 30px;
-    width: 10.5px;
-    height: 5px
+}
+
+.card-box {
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px 20px;
+    margin-bottom: 50px;
+}
+
+.card-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    background: #F9F9F9;
+    padding: 20px 20px 30px;
+}
+
+.img {
+    width: 275px;
+    height: 227px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #333333;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.bird-food {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+}
+
+.food-price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.bottom-of-car {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.button {
+    padding: 12px 32px;
+    background: #3FCF5E;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.cart {
+    width: 46px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.link-numbers {
+    margin-bottom:100px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-numbers::before {
+    content:url('./images/arrow-left.png');
+    width:10.67px;
+    height:6px;
+    color: #333333;
+    margin-right: 30px;
+}
+
+.link-numbers::after {
+    content:url('./images/arrow-right.png');
+    width:10px;
+    height:6px;
+    color: #333333;
+    margin-left: 30px;
+}
+
+.link-numbers a {
+    margin-right: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.link-numbers a:last-child {
+    margin-right: 0;
+}
+
+div.link-numbers a.active:active {
+    color: green;
+}
+
+.footer {
+    background: #333333;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-img-margin {
+    margin-right: 20px; 
+}
+
+.footer-margin {
+    margin-right: 47px;
+}
+
+.spann {
+    border: 1px solid transparent;
+    background:#F9F9F9;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.input2:checked + .spann {
+    background:#F9F9F9;
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.input2 {
+    display: none;
 }
 
 .main-basket {
@@ -122,18 +307,25 @@
 
 .basket-back {
     margin-bottom: 30px;
-    font-weight: $defaultLinkFontweight;
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #333333;
     text-decoration: none;
 }
 
+.basket-back::before {
+    margin-right: 10px;
+    content:url('./images/vector-back.png');
+    color: #3FCF5E;
+    margin-bottom: 30px;
+}
+
 .basket-link {
-    font-weight: $defaultLinkFontweight;
-    font-size: $defaultLinkFontSize;
-    line-height: $defaultLinkLineHeight;
-    color: $secondaryLinkColor;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -162,26 +354,26 @@
     margin-left: 15px;
     font-weight: 600;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 29px;
     color: #333333;
+}
+
+.basket-content-article {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
 }
 
 .basket-content-text {
     margin-top: 52px;
     margin-bottom: 0;
     margin-left: 15px;
-    font-weight: $defaultLinkFontweight;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #828282;
-}
-
-.basket-content-article {
-    margin-left: 15px;
-    font-weight: $defaultLinkFontweight;
-    font-size: $defaultLinkFontSize;
-    line-height: 21px;
-    color: $secondaryLinkColor;
 }
 
 .sum {
@@ -195,9 +387,9 @@
 .amount {
     margin-top: 40px;
     margin-bottom: 10px;
-    font-weight: $defaultLinkFontweight;
-    font-size: $defaultLinkFontSize;
-    color: $secondaryLinkColor;
+    font-weight: 500;
+    font-size: 18px;
+    color: #BDBDBD;
 }
 
 .total {
@@ -227,8 +419,8 @@
 .total p:nth-child(1){
     margin-top: 40px;
     margin-bottom: 10px;
-    font-weight: $defaultLinkFontweight;
-    font-size: $defaultLinkFontSize;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .total div {
@@ -237,7 +429,7 @@
 
 .total p {
     margin-top: 30px;
-    font-weight: $defaultLinkFontweight;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #828282;
@@ -279,10 +471,10 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
-    font-weight:$defaultLinkFontweight;
-    font-size: $defaultLinkFontSize;
-    line-height: $defaultLinkLineHeigh;
-    color: $secondaryDefaultColor;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
 }
 
 .charity-button {
@@ -327,31 +519,4 @@
 .radius {
     border: 1px solid #F2F2F2;
     border-radius: 10px;
-}
-
-.footer {
-    background: #333333;
-    padding-top: 100px;
-    padding-bottom: 130px;
-}
-
-.footer-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer a {
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.footer-img-margin {
-    margin-right: 20px; 
-}
-
-.footer-margin {
-    margin-right: 47px;
 }

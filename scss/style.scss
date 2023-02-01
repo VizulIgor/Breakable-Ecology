@@ -1,4 +1,7 @@
+@use "./mixins" as *;
+@use "./variables" as *;
 @import "./normalize";
 @import "./scafolding";
 @import "./fonts/stylesheet";
 @import "./basket";
+@import "./main-page.scss"
