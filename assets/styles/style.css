@@ -334,11 +334,6 @@ div.link-numbers a.active:active {
     background: #E5E5E5;
 }
 
-.basket-image {
-    width: 129px;
-    height:140px;
-}
-
 .basket-back {
     margin-bottom: 30px;
     font-weight: 500;
@@ -355,25 +350,34 @@ div.link-numbers a.active:active {
     margin-bottom: 30px;
 }
 
-.text {
+.basket-link {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #BDBDBD;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .basket-flex {
-    padding-top: 25px;
-    padding-bottom: 27px;
     display: flex;
+    justify-content: space-between;
     background: #FFFFFF;
     border: 1px solid #F2F2F2;
-    border-radius: 10px;
 }
 
+.basket-content {
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+}
 
-.product-info h3 {
+.basket-content-amount {
+    display: flex;
+    text-align: center;
+}
+
+.basket-content-title {
     margin-top: 0;
     margin-bottom: 9px;
     margin-left: 15px;
@@ -383,7 +387,7 @@ div.link-numbers a.active:active {
     color: #333333;
 }
 
-.product-info span {
+.basket-content-article {
     margin-left: 15px;
     font-weight: 500;
     font-size: 18px;
@@ -391,8 +395,9 @@ div.link-numbers a.active:active {
     color: #BDBDBD;
 }
 
-.product-info p {
+.basket-content-text {
     margin-top: 52px;
+    margin-bottom: 0;
     margin-left: 15px;
     font-weight: 500;
     font-size: 24px;
@@ -401,30 +406,23 @@ div.link-numbers a.active:active {
 }
 
 .sum {
+    padding-left: 8px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #333333;
 }
 
-.product-info p span {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #333333;
-    margin-left: 8px;
-}
-
-.total {
-    text-align: center;
-    
-}
-
-.total p {
-    margin-top: 10px;
+.amount {
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 18px;
     color: #BDBDBD;
+}
+
+.total {
+    padding-right: 25px;
 }
 
 .basket-button {
@@ -437,7 +435,6 @@ div.link-numbers a.active:active {
 }
 
 .input-number {
-    margin-right: 20px;
     margin-left: 20px;
     font-weight: 600;
     font-size: 24px;
@@ -460,16 +457,95 @@ div.link-numbers a.active:active {
 }
 
 .total p {
+    margin-top: 30px;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #828282;
-    
 }
 
-.total p span {
+.line {
+    border: 1px solid #F2F2F2;
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.basket-charity {
+    background: #3FCF5E;
+    padding-top: 40px;
+    padding-left: 171px;
+    padding-bottom: 50px;
+}
+
+.basket-charity h4 {
+    margin-top: 0;
+    margin-bottom: 33px;
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #333333;
+    color: #FFFFFF;
+}
+
+.charity-amount {
+    width: 234px;
+    height: 51px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.charity-amount::placeholder {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4F4F4F;
+}
+
+.charity-button {
+    width: 201px;
+    height: 51px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 40px;
+    border: none;
+}
+
+.charity-button span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button-to-pay {
+    display: flex;
+    justify-content: flex-end;
+    background: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 25px;
+}
+
+.basket-to-pay {
+    padding: 15px 30px;
+    width: 206px;
+    height: 49px;
+    background: #3FCF5E;
+    border-radius: 10px;
+    border: none;
+}
+
+.class-main {
+    padding-bottom: 169px;
+    background: #E5E5E5;
+}
+
+.radius {
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
 }
