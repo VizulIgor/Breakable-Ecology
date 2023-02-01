@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basket</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-    
+    <header class="wrapper">
+        <div class="nav">
+            <div class="header">
+                <nav class="header-section-logo">
+                    <img src="./assets/styles/images/logo.png" width="244" height="45" alt="Breakably Ecology">
+                </nav>
+                <nav class="header-section-logo">
+                    <a class="tel-link" href="tel:89209994350">
+                        <img class="handset" src="./assets/styles/images/telephone.png" alt="handset" width="19"
+                            height="19">
+                        <span class="tel">8 920 999 43 50</span>
+                    </a>
+                    <a href="./basket.html">
+                        <img class="basket" src="./assets/styles/images/basket.png" alt="basket" width="35" height="38">
+                    </a>
+                    <a href="./">
+                        <img src="./assets/styles/images/account.png" alt="account-logo" width="30" height="30">
+                    </a>
+                </nav>
+            </div>
+            <div class="header">
+                <nav class="header-section">
+                    <a class="catalog" href="/">
+                        Каталог
+                    </a>
+                    <a href="/">
+                        О проекте
+                    </a>
+                    <a href="/">
+                        Птицы
+                    </a>
+                    <a href="/">
+                        Пожертвования
+                    </a>
+                </nav>
+                <nav class="header-section">
+                    <input class="input-first" type="text" name="search" placeholder="Поиск">
+                    <img class="search" src="./assets/styles/images/search.png" alt="magnifying-glass" width="30"
+                        height="30">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main-basket">
+        <div class="wrapper">
+            <nav>
+                <a href="/" class="basket-back">
+                    <span>
+                        Назад
+                    </span>
+                </a>
+            </nav>
+            <p class="text">
+                Корзина
+            </p>
+            <div class="basket-flex">
+                <div class="basket-image">
+                    <img src="./assets/styles/images/fiory-product.png" alt="fiory-product" width="129" height="140">
+                </div>
+                <div class="product-info">
+                    <h3>
+                        Корм для птиц FIORY Смесь для попугаев  400г
+                    </h3>
+                    <span>
+                        Артикул Т00001632
+                    </span>
+                    <p>
+                        Цена за 1 шт:<span>228 руб.</span>
+                    </p>
+                </div>
+                <div class="total">
+                    <p>Количество:</p>
+                    <div>
+                        <button class="basket-button">-</button>
+                        <input class="input-number" type="number" value="minus">
+                        <button class="basket-button">+</button>
+                    </div>
+                    <p>Итого: <span>228 руб.</span></p>
+                </div>
+            </div>
 </body>
 </html>

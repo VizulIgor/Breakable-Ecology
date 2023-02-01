@@ -319,3 +319,157 @@ div.link-numbers a.active:active {
 .input2 {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+.main-basket {
+    padding-top: 50px;
+    background: #E5E5E5;
+}
+
+.basket-image {
+    width: 129px;
+    height:140px;
+}
+
+.basket-back {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.basket-back::before {
+    margin-right: 10px;
+    content:url('./images/vector-back.png');
+    color: #3FCF5E;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+    margin-bottom: 10px;
+}
+
+.basket-flex {
+    padding-top: 25px;
+    padding-bottom: 27px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+}
+
+
+.product-info h3 {
+    margin-top: 0;
+    margin-bottom: 9px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.product-info span {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+
+.product-info p {
+    margin-top: 52px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.sum {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.product-info p span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-left: 8px;
+}
+
+.total {
+    text-align: center;
+    
+}
+
+.total p {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #BDBDBD;
+}
+
+.basket-button {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #00C620;
+    border-radius: 5px;
+    color: #00C620;
+}
+
+.input-number {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+
+.total p:nth-child(1){
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.total div {
+    margin-bottom: 30px;
+}
+
+.total p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #828282;
+    
+}
+
+.total p span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
