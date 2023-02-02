@@ -1,5 +1,5 @@
 .nav {
-    background: #FFFFFF;
+    background: $contentBackgroundColor;
     padding-top: 33px;
     padding-bottom: 46px;
 }
@@ -32,7 +32,7 @@
 .tel {
     margin-right: 60px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: $defaultLinkFontSize;
     line-height: 21px;
     color: #000000;
 }
@@ -71,7 +71,7 @@
     margin-left: 7px;
     width: 9px;
     height: 5px;
-    color: #4F4F4F;
+    color: $secondaryDefaultColor;
 }
 
 .input-first {
@@ -81,7 +81,7 @@
     left: 1273px;
     top: 120px;
     background: #F2F2F2;
-    border: 1px solid #BDBDBD;
+    border: 1px solid $secondaryLinkColor;
     border-radius: 10px;
 }
 
@@ -97,10 +97,10 @@
 }
 
 .span-item {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    color: #BDBDBD;
+    font-weight: $defaultLinkFontweight;
+    font-size: $defaultLinkFontSize;
+    line-height: $defaultLinkLineHeight;
+    color: $secondaryLinkColor;
     text-decoration: none;
 }
 
@@ -110,7 +110,7 @@
     content:url('./images/dot.png');
     width: 6px;
     height: 6px;
-    color: #BDBDBD;
+    color: $secondaryLinkColor;
     text-decoration: none;
 }
 
@@ -156,9 +156,8 @@
 }
 
 .card-title {
-    font-weight: 600;
+    font-weight: $titleFontWeight;
     font-size: 24px;
-    line-height: 130%;
     color: #333333;
     margin-bottom: 5px;
     margin-top: 0px;
@@ -168,7 +167,6 @@
     margin-bottom: 25px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 130%;
     color: #828282;
 }
 
@@ -198,17 +196,17 @@
     background: #3FCF5E;
     border: 1px solid rgba(5, 175, 52, 0.53);
     border-radius: 10px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
+    font-weight: $titleFontWeight;
+    font-size: $defaultLinkFontSize;
+    line-height: $defaultLinkLineHeight;
+    color: $contentBackgroundColor;
 }
 
 .cart {
     width: 46px;
     height: 45px;
-    background: #FFFFFF;
-    border: 1px solid #BDBDBD;
+    background: $contentBackgroundColor;
+    border: 1px solid $secondaryLinkColor;
     border-radius: 10px;
 }
 
@@ -220,7 +218,7 @@
 
 .link-numbers::before {
     content:url('./images/arrow-left.png');
-    width:10.67px;
+    width:10px;
     height:6px;
     color: #333333;
     margin-right: 30px;
@@ -236,10 +234,9 @@
 
 .link-numbers a {
     margin-right: 20px;
-    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: $defaultLinkFontSize;
+    line-height: $defaultLinkLineHeight;
     color: #828282;
     text-decoration: none;
 }
@@ -267,7 +264,7 @@ div.link-numbers a.active:active {
 .footer a {
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: $contentBackgroundColor;
     text-decoration: none;
 }
 
@@ -282,9 +279,9 @@ div.link-numbers a.active:active {
 .spann {
     border: 1px solid transparent;
     background:#F9F9F9;
-    font-weight: 500;
-    font-size: 18px;
-    color: #4F4F4F;
+    font-weight: $defaultLinkFontweight;
+    font-size: $defaultLinkFontSize;
+    color: $secondaryDefaultColor;
     border-radius: 5px;
     padding: 4px 10px;
 }

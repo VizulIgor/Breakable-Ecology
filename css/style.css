@@ -461,7 +461,7 @@ body {
 }
 
 .basket-link {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #BDBDBD;
@@ -501,7 +501,7 @@ body {
   margin-top: 52px;
   margin-bottom: 0;
   margin-left: 15px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #828282;
@@ -509,7 +509,7 @@ body {
 
 .basket-content-article {
   margin-left: 15px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #BDBDBD;
@@ -526,7 +526,7 @@ body {
 .amount {
   margin-top: 40px;
   margin-bottom: 10px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   color: #BDBDBD;
 }
@@ -558,7 +558,7 @@ body {
 .total p:nth-child(1) {
   margin-top: 40px;
   margin-bottom: 10px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -568,7 +568,7 @@ body {
 
 .total p {
   margin-top: 30px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #828282;
@@ -610,7 +610,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: #4F4F4F;
@@ -626,7 +626,7 @@ body {
 }
 
 .charity-button span {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
 }
@@ -862,7 +862,6 @@ body {
 .card-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 130%;
   color: #333333;
   margin-bottom: 5px;
   margin-top: 0px;
@@ -872,7 +871,6 @@ body {
   margin-bottom: 25px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 130%;
   color: #828282;
 }
 
@@ -924,7 +922,7 @@ body {
 
 .link-numbers::before {
   content: url("./images/arrow-left.png");
-  width: 10.67px;
+  width: 10px;
   height: 6px;
   color: #333333;
   margin-right: 30px;
@@ -940,7 +938,6 @@ body {
 
 .link-numbers a {
   margin-right: 20px;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
